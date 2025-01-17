@@ -12,7 +12,9 @@ export default function Header() {
         <h2>SC.</h2>
       </div>
       <div className={classes.listContainer}>
-        <li>New arrivals</li>
+        <li style={{ fontWeight: 400, fontFamily: "Libre Baskerville" }}>
+          New arrivals
+        </li>
         <li>Men</li>
         <li>Women</li>
         <li>Kids</li>

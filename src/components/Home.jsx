@@ -1,3 +1,10 @@
+import LatestProduct from "./LatestProduct";
+
 export default function HomePage() {
-  return <h2>This is homepage</h2>;
+  return (
+    <>
+      <LatestProduct />
+      <h2>This is homepage</h2>;
+    </>
+  );
 }

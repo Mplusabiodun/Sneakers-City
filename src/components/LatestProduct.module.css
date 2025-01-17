@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+Hatran&family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.container {
+  display: flex;
+  padding: 2rem 0 2rem 9rem;
+}
+/* .upperContainer {
+} */
+
+.upperContainer h2 {
+  font-family: "Libre Baskerville";
+  font-size: 3rem;
+  letter-spacing: 2px;
+  line-height: 4.1rem;
+}
+.upperContainer .about {
+  width: 32rem;
+  letter-spacing: 0.7px;
+  font-family: "Roboto";
+  font-size: 17px;
+  margin: 2rem 0 1.5rem;
+  line-height: 22px;
+  opacity: 0.75;
+}
+.upperContainer .price {
+  letter-spacing: 0.7px;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0rem 0 3rem;
+}
+.upperContainer button {
+  padding: 1rem 2rem;
+  background-color: #d90429;
+  color: #ffffff;
+  border: none;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
