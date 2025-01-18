@@ -27,11 +27,13 @@ export default function LatestProduct() {
         <p className={classes.price}>62,000RWF</p>
         <button>Add to cart</button>
       </div>
-      <div>
-        <img src={pumaRunning} alt="puma running sx" />
+      <div className={classes.lowerContainer}>
+        <div className={classes.imgDiv}>
+          <img src={pumaRunning} alt="puma running sx" />
+        </div>
         <ul>
           {explore.map((latest) => (
-            <li>
+            <li key={latest.imgName}>
               <img src={latest.img} alt={latest.imgName} />
             </li>
           ))}

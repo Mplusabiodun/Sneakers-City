@@ -2,10 +2,11 @@
 
 .container {
   display: flex;
-  padding: 2rem 0 2rem 9rem;
+  padding: 2rem 11rem 2rem 11rem;
 }
-/* .upperContainer {
-} */
+.upperContainer {
+  margin: 0 8rem 0 0;
+}
 
 .upperContainer h2 {
   font-family: "Libre Baskerville";
@@ -36,4 +37,42 @@
   border: none;
   letter-spacing: 0.8px;
   font-weight: 700;
+}
+.lowerContainer {
+  /* background-color: green; */
+  margin: -4rem 0 0 0;
+}
+.imgDiv {
+  width: 29rem;
+  height: 29rem;
+  background-color: #f3e7e9;
+  border-radius: 50%;
+  margin: 0rem 0 0 0rem;
+}
+.imgDiv img {
+  width: 35.5rem;
+  height: 24rem;
+  margin: 3.6rem 0 0 -6rem;
+}
+.lowerContainer ul {
+  display: flex;
+  margin: 1.5rem 0 0 15rem;
+}
+.lowerContainer ul li {
+  list-style-type: none;
+  background-color: whitesmoke;
+  width: 64px;
+  height: 64px;
+  border-radius: 10px;
+  margin: 0 1.5rem 0 0;
+  display: flex;
+  justify-content: center;
+}
+.lowerContainer ul li:hover {
+  background-color: #f3e7e9;
+  border: 3px solid whitesmoke;
+}
+.lowerContainer ul li img {
+  width: 55px;
+  height: 55px;
 }
