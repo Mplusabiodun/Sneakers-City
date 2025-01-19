@@ -5,7 +5,7 @@
   padding: 2rem 11rem 2rem 11rem;
 }
 .upperContainer {
-  margin: 0 8rem 0 0;
+  margin: 0 2rem 0 0;
 }
 
 .upperContainer h2 {
@@ -39,8 +39,9 @@
   font-weight: 700;
 }
 .lowerContainer {
-  /* background-color: green; */
-  margin: -4rem 0 0 0;
+  background-color: #fdfbfb;
+  margin: -6rem 0 0 0;
+  padding: 3rem 0 2rem 6rem;
 }
 .imgDiv {
   width: 29rem;
@@ -61,18 +62,47 @@
 .lowerContainer ul li {
   list-style-type: none;
   background-color: whitesmoke;
-  width: 64px;
-  height: 64px;
+  /* width: 64px;
+  height: 64px; */
+  padding: 8px;
   border-radius: 10px;
   margin: 0 1.5rem 0 0;
   display: flex;
   justify-content: center;
 }
-.lowerContainer ul li:hover {
+/* .lowerContainer ul li:hover {
   background-color: #f3e7e9;
   border: 3px solid whitesmoke;
-}
+} */
 .lowerContainer ul li img {
   width: 55px;
-  height: 55px;
+  height: 50px;
+}
+.findthatsneaker {
+  position: absolute;
+  display: flex;
+  width: 35%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: -5rem 0 0 25rem;
+  padding: 0.8rem 0.5rem 0.8rem 1rem;
+}
+.sneakers {
+  display: flex;
+}
+.sneakers li {
+  list-style-type: none;
+  margin: 0 15px 0 0;
+}
+.sneakers li img {
+  width: 94px;
+  height: 94px;
+}
+.findthatsneaker p {
+  margin: 2.6rem 1.2rem 0 0.8rem;
+  font-weight: 400;
+  font-family: "Roboto";
+  line-height: 11px;
+}
+.findthatsneaker span {
+  margin: 2.5rem 0rem 0 1rem;
 }
