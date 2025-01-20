@@ -1,0 +1,36 @@
+.newArrivals {
+  /* background-color: green; */
+  margin: 5rem 0 0 0;
+  padding: 0 0 0 8rem;
+}
+.newArrivals h2 {
+  font-family: "Roboto";
+  letter-spacing: 0.8px;
+  font-size: 17px;
+}
+.newArrivals ul {
+  display: flex;
+  box-sizing: border-box;
+  margin: 1rem 0 0 0;
+}
+.listNew {
+  list-style-type: none;
+  margin: 0 2rem 0 0;
+  font-family: "Roboto";
+}
+
+.listNew img {
+  background-color: #f4ecece6;
+  width: 19rem;
+  height: 17rem;
+}
+.listNew h3,
+p {
+  font-weight: 500;
+  font-size: 17px;
+  margin: 1rem 0 0.8rem 0;
+  letter-spacing: 0.5px;
+}
+.listNew p {
+  opacity: 0.7;
+}
