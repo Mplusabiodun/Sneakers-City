@@ -62,8 +62,6 @@
 .lowerContainer ul li {
   list-style-type: none;
   background-color: whitesmoke;
-  /* width: 64px;
-  height: 64px; */
   padding: 8px;
   border-radius: 10px;
   margin: 0 1.5rem 0 0;
@@ -98,10 +96,11 @@
   height: 94px;
 }
 .findthatsneaker p {
-  margin: 2.6rem 1.2rem 0 0.8rem;
-  font-weight: 400;
+  margin: 2.6rem 1.2rem 0 0rem;
+  font-weight: 500;
   font-family: "Roboto";
   line-height: 11px;
+  opacity: 0.8;
 }
 .findthatsneaker span {
   margin: 2.5rem 0rem 0 1rem;

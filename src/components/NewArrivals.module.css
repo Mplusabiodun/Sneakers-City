@@ -21,6 +21,7 @@
 
 .listNew img {
   background-color: #f4ecece6;
+  background-color: #e5e5e5;
   width: 19rem;
   height: 17rem;
 }
@@ -33,4 +34,5 @@ p {
 }
 .listNew p {
   opacity: 0.7;
+  font-size: 15px;
 }
