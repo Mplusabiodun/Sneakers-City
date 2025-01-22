@@ -1,4 +1,5 @@
 import NewArrivals from "./NewArrivals";
+import GoodSneakers from "./GoodSneakers";
 
 import pumaRunning from "../assets/puma_running_sx.png";
 import nikeBlue from "../assets/nike_blue.png";
@@ -69,6 +70,7 @@ export default function LatestProduct() {
         </p>
       </div>
       <NewArrivals />
+      <GoodSneakers />
     </>
   );
 }

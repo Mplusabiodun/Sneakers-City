@@ -1,0 +1,60 @@
+.container {
+  font-family: "Roboto";
+}
+.first_div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 4rem 0 0 0;
+}
+.first_div img {
+  width: 64px;
+  height: 64px;
+  margin: -0.6rem -2.6rem 0 0;
+}
+.first_div div h2 {
+  width: 23.3rem;
+  font-size: 2.1rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Roboto";
+}
+.first_div p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 13px;
+  letter-spacing: 0.6px;
+}
+.second_div {
+  display: flex;
+  justify-content: center;
+  margin: 4rem auto 0;
+  /* width: 60%; */
+  /* background-color: green; */
+}
+.second_div div img {
+  width: 159px;
+  height: 132px;
+}
+.second_div div h3 {
+  /* font-size: 15px; */
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+/* .currated {
+  margin: 0 0 0 -5rem;
+} */
+.currated h3 {
+  font-size: 1.2rem;
+  /* background-color: red; */
+  /* width: 328px; */
+  margin: -1.4rem 0 0 -4rem;
+}
+.original {
+  margin: 5rem 14rem 0 10rem;
+  text-align: center;
+}
+.latest_trends h3 {
+  margin: -3.3rem 0 0 -7rem;
+}
