@@ -30,25 +30,17 @@
   display: flex;
   justify-content: center;
   margin: 4rem auto 0;
-  /* width: 60%; */
-  /* background-color: green; */
 }
 .second_div div img {
   width: 159px;
   height: 132px;
 }
 .second_div div h3 {
-  /* font-size: 15px; */
   opacity: 0.8;
   letter-spacing: 0.5px;
 }
-/* .currated {
-  margin: 0 0 0 -5rem;
-} */
 .currated h3 {
   font-size: 1.2rem;
-  /* background-color: red; */
-  /* width: 328px; */
   margin: -1.4rem 0 0 -4rem;
 }
 .original {
