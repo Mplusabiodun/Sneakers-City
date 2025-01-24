@@ -1,0 +1,46 @@
+.footer {
+  padding: 10rem 11rem 2rem;
+}
+hr {
+  margin-bottom: 4rem;
+  opacity: 0.5;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.logo h2 {
+  margin: 0 0 0 7px;
+  font-size: 24px;
+  letter-spacing: 1.4px;
+}
+.footerwords {
+  width: 36rem;
+  font-family: "Roboto";
+  margin-bottom: 4rem;
+  opacity: 0.7;
+}
+.dontmiss_support_copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.dontmiss_support_copyright p {
+  opacity: 0.7;
+}
+.dontmiss {
+  display: flex;
+  /* margin-right: 2rem; */
+}
+.dontmiss ul {
+  display: flex;
+}
+.dontmiss ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.dontmiss ul li img {
+  margin-top: 0.8rem;
+}
