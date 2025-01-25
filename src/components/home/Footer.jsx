@@ -1,7 +1,7 @@
-import sneakerLogo from "../assets/logo.png";
-import twitter from "../assets/twitter_bird.png";
-import instagram from "../assets/instagram.png";
-import facebook from "../assets/facebook.png";
+import sneakerLogo from "../../assets/logo.png";
+import twitter from "../../assets/twitter_bird.png";
+import instagram from "../../assets/instagram.png";
+import facebook from "../../assets/facebook.png";
 
 import classes from "./Footer.module.css";
 

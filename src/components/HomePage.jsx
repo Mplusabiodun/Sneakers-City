@@ -1,5 +1,5 @@
-import Footer from "./Footer";
-import LatestProduct from "./LatestProduct";
+import Footer from "./home/Footer";
+import LatestProduct from "./home/LatestProduct";
 
 export default function HomePage() {
   return (

@@ -1,7 +1,7 @@
-import adiddasBeluga from "../assets/adiddas_beluga.png";
-import nikeZoom from "../assets/nike_zoom.png";
-import nikeAirJordanXT from "../assets/nike_air_jordan.png";
-import nikeWobler from "../assets/nike_wobler.png";
+import adiddasBeluga from "../../assets/adiddas_beluga.png";
+import nikeZoom from "../../assets/nike_zoom.png";
+import nikeAirJordanXT from "../../assets/nike_air_jordan.png";
+import nikeWobler from "../../assets/nike_wobler.png";
 
 import classes from "./NewArrivals.module.css";
 

@@ -1,7 +1,7 @@
-import streamlineIcon from "../assets/streamline-icon.png";
-import streamlineIconBoasting from "../assets/streamline-icon-boasting.png";
-import streamlineIconOriginal from "../assets/original1.png";
-import streamlineIconHot from "../assets/streamline-icon-hot-trending.png";
+import streamlineIcon from "../../assets/streamline-icon.png";
+import streamlineIconBoasting from "../../assets/streamline-icon-boasting.png";
+import streamlineIconOriginal from "../../assets/original1.png";
+import streamlineIconHot from "../../assets/streamline-icon-hot-trending.png";
 
 import classes from "./Goodsneakers.module.css";
 

@@ -1,14 +1,15 @@
 import NewArrivals from "./NewArrivals";
 import GoodSneakers from "./GoodSneakers";
 
-import pumaRunning from "../assets/puma_running_sx.png";
-import nikeBlue from "../assets/nike_blue.png";
-import nikeAir from "../assets/nike_air_jordan.png";
-import nikeWobler from "../assets/nike_wobler.png";
-import adiddasGreen from "../assets/Adidas-Superstar1.png";
-import adiddasRed from "../assets/Adidas-Superstar2.png";
-import adiddasBlue from "../assets/Adidas-Superstar3.png";
-import next from "../assets/next_1.png";
+import pumaRunning from "../../assets/puma_running_sx.png";
+
+import nikeBlue from "../../assets/nike_blue.png";
+import nikeAir from "../../assets/nike_air_jordan.png";
+import nikeWobler from "../../assets/nike_wobler.png";
+import adiddasGreen from "../../assets/Adidas-Superstar1.png";
+import adiddasRed from "../../assets/Adidas-Superstar2.png";
+import adiddasBlue from "../../assets/Adidas-Superstar3.png";
+import next from "../../assets/next_1.png";
 
 import classes from "./LatestProduct.module.css";
 
