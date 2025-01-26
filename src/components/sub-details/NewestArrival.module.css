@@ -1,20 +1,32 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .container {
   display: flex;
-  background-color: red;
-  padding: 0;
-  margin: 0;
+  padding: 0 2rem;
+  font-family: "Roboto";
+  margin-top: 0;
 }
 .firstContainer {
-  background-color: green;
+  /* background-color: green; */
   width: 25%;
+  padding: 0 4rem 0 1rem;
+}
+.firstContainer h2 {
+  font-size: 19px;
+  letter-spacing: 0.6px;
+  margin-bottom: 15px;
+}
+.firstContainer li {
+  font-size: 15px;
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+.firstContainer input {
+  margin-right: 10px;
+}
+.firstContainer hr {
+  margin: 1.2rem 0;
 }
 .secondContainer {
   background-color: purple;
-  width: 60%;
+  width: 75%;
   margin: 0;
 }

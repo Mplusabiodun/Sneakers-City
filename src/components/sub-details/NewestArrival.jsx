@@ -4,20 +4,34 @@ export default function NewestArrival() {
   return (
     <div className={styles.container}>
       <div className={styles.firstContainer}>
-        <div>
-          <h2>Brand</h2>
-          <ul>
-            <li>
-              <input type="checkbox" name="nike" id="nike" />
-              <label htmlFor="nike">Nike</label>
-            </li>
-            <li>
-              <input type="checkbox" name="jordan" id="jordan" />
-              <label htmlFor="jordan">Jordan</label>
-            </li>
-          </ul>
-          <hr />
-        </div>
+        <h2>Brand</h2>
+        <ul>
+          <li>
+            <input type="checkbox" name="nike" id="nike" />
+            <label htmlFor="nike">Nike</label>
+          </li>
+          <li>
+            <input type="checkbox" name="jordan" id="jordan" />
+            <label htmlFor="jordan">Jordan</label>
+          </li>
+          <li>
+            <input type="checkbox" name="nike" id="nike" />
+            <label htmlFor="nike">Nike</label>
+          </li>
+          <li>
+            <input type="checkbox" name="jordan" id="jordan" />
+            <label htmlFor="jordan">Jordan</label>
+          </li>
+          <li>
+            <input type="checkbox" name="nike" id="nike" />
+            <label htmlFor="nike">Nike</label>
+          </li>
+          <li>
+            <input type="checkbox" name="jordan" id="jordan" />
+            <label htmlFor="jordan">Jordan</label>
+          </li>
+        </ul>
+        <hr />
         <div>
           <h2>Price range</h2>
           <div>
