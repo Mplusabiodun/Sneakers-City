@@ -1,18 +1,19 @@
 .container {
   display: flex;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
   font-family: "Roboto";
   margin-top: 0;
 }
 .firstContainer {
-  /* background-color: green; */
-  width: 25%;
+  width: 20%;
   padding: 0 4rem 0 1rem;
 }
-.firstContainer h2 {
+.firstContainer h3 {
   font-size: 19px;
   letter-spacing: 0.6px;
   margin-bottom: 15px;
+  font-weight: 500;
+  opacity: 0.9;
 }
 .firstContainer li {
   font-size: 15px;
@@ -25,8 +26,58 @@
 .firstContainer hr {
   margin: 1.2rem 0;
 }
+
+.range {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 4px;
+  background-color: rgb(201, 197, 197);
+}
+.startrange,
+.endrange {
+  border-radius: 50%;
+  background-color: black;
+  height: 9px;
+  width: 9px;
+  margin: -1.9px 0 0 0;
+}
+.centerrange {
+  width: 60%;
+  height: 4px;
+  background-color: black;
+}
+.pricerange {
+  display: flex;
+}
+.pricerange p {
+  font-size: 13px;
+}
+.pricerangesecond {
+  margin-left: 2.5rem;
+}
+.sizes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.sizes li {
+  padding: 0.7rem 0rem;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 8px;
+  width: 48px;
+  height: 48px;
+}
+
+/* SIDE BAR END */
 .secondContainer {
-  background-color: purple;
-  width: 75%;
+  /* background-color: purple; */
+  width: 80%;
   margin: 0;
+  padding: 0 1rem;
+}
+.secondContainer h2 {
+  font-size: 20px;
+  letter-spacing: 0.5px;
 }

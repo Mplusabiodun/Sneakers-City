@@ -4,7 +4,7 @@ import Header from "./home/Header";
 export default function RootLayout() {
   return (
     <>
-      <Header />;
+      <Header />
       <Outlet />
     </>
   );
