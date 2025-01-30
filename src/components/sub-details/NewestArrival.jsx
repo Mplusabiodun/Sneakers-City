@@ -38,21 +38,26 @@ export default function NewestArrival() {
       </div>
       <div className={styles.secondContainer}>
         <h2>The new arrivals</h2>
-        <ul>
+        <ul className={styles.listOfNew}>
           <li>
             <img src={jordanDelta2} alt="jordan delta 2" />
             <h3>Jordan Delta 2</h3>
-            <p>78, 000RWF</p>
+            <p>78,000RWF</p>
           </li>
           <li>
             <img src={nike_air_jordanXT} alt="nike_air_jordanXT" />
             <h3>Nike Air Jordan XT</h3>
-            <p>35, 000RWF</p>
+            <p>35,000RWF</p>
           </li>
           <li>
             <img src={rx_intl_game} alt="rx intl game" />
             <h3>RS-X-INTL-Games</h3>
-            <p>35, 000RWF</p>
+            <p>35,000RWF</p>
+          </li>
+          <li>
+            <img src={rx_intl_game} alt="rx intl game" />
+            <h3>RS-X-INTL-Games</h3>
+            <p>35,000RWF</p>
           </li>
         </ul>
       </div>
