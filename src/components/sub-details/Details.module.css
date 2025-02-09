@@ -1,3 +1,50 @@
+.container {
+  display: flex;
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  padding: 1.5rem 11rem 2rem 0rem;
+}
+.nameandpics {
+  width: 70%;
+  background-color: #e5e5e5;
+  padding: 3rem 3rem 0 11rem;
+}
+.nameandheart {
+  display: flex;
+  justify-content: space-between;
+}
+.nameandheart h2 {
+  font-size: 1.8rem;
+}
+.nameandheart img {
+  width: 24px;
+  height: 24px;
+}
+.price {
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+.productImg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productImg p {
+  font-weight: 500;
+  font-size: 1.7rem;
+  opacity: 0.5;
+  /* height: 54px; */
+}
+#mainImg {
+  width: 564px;
+  height: 436px;
+}
+.nameandpics ul {
+  display: flex;
+}
+.descriptionCont {
+  width: 30%;
+}
+
 .sizes {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

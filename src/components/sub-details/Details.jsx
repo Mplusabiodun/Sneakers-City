@@ -1,5 +1,5 @@
 import heart from "../../assets/fi_heart.png";
-import detail1 from "../../assets/detail1.png";
+import detail1 from "../../assets/detail11.png";
 import detail2 from "../../assets/detail2.png";
 import detail3 from "../../assets/detail3.png";
 import detail4 from "../../assets/detail4.png";
@@ -8,16 +8,16 @@ import styles from "./Details.module.css";
 
 export default function Details() {
   return (
-    <div>
-      <div>
-        <div>
+    <div className={styles.container}>
+      <div className={styles.nameandpics}>
+        <div className={styles.nameandheart}>
           <h2>Jordan Delata 2</h2>
           <img src={heart} alt="heart" />
         </div>
-        <p>78, 000RWF</p>
-        <div>
+        <p className={styles.price}>78, 000RWF</p>
+        <div className={styles.productImg}>
           <p>&lt;</p>
-          <img src={detail1} alt="" />
+          <img id={styles.mainImg} src={detail1} alt="" />
           <p>&gt;</p>
         </div>
         <ul>
@@ -35,7 +35,7 @@ export default function Details() {
           </li>
         </ul>
       </div>
-      <div className="secondDIV">
+      <div className={styles.descriptionCont}>
         <div>
           <h2>Description</h2>
           <p>&#8593;</p>
