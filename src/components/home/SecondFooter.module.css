@@ -1,0 +1,31 @@
+.dontmiss_support_copyright {
+  /* display: flex; */
+  justify-content: space-between;
+  padding: 1rem 5.5rem 2rem 0;
+}
+hr {
+  margin: 3rem 0 1.2rem 0;
+}
+.dontmiss_support_copyright p {
+  font-family: "Calibri", "Trebuchet MS", sans-serif;
+  opacity: 0.7;
+}
+.dontmiss {
+  display: flex;
+  /* margin-right: 2rem; */
+}
+.dontmiss ul {
+  display: flex;
+}
+.dontmiss ul li {
+  list-style-type: none;
+  margin-left: 1rem;
+}
+.dontmiss ul li img {
+  margin-top: 0.8rem;
+}
+
+.support_copyright {
+  display: flex;
+  justify-content: space-between;
+}

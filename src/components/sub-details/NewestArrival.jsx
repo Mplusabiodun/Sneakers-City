@@ -5,6 +5,8 @@ import nike_air_jordanXT from "../../assets/nike_air_jordanXT.png";
 import rx_intl_game from "../../assets/rx_intl_game.png";
 import { Link } from "react-router-dom";
 
+import SecondFooter from "../home/SecondFooter";
+
 export default function NewestArrival() {
   return (
     <div className={styles.container}>
@@ -61,6 +63,7 @@ export default function NewestArrival() {
             <p>35,000RWF</p>
           </Link>
         </ul>
+        <SecondFooter />
       </div>
     </div>
   );
