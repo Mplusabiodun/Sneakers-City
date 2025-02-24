@@ -5,8 +5,10 @@
 }
 .nameandpics {
   width: 70%;
-  background-color: #e5e5e5;
-  padding: 3rem 3rem 0 11rem;
+  /* background-color: #e5e5e5; */
+  background-color: #f3f3f3;
+  padding: 3rem 3rem 5rem 11rem;
+  margin-right: 2rem;
 }
 .nameandheart {
   display: flex;
@@ -24,14 +26,14 @@
   opacity: 0.7;
 }
 .productImg {
+  margin: -2rem 0 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.productImg p {
-  font-weight: 500;
-  font-size: 1.7rem;
-  opacity: 0.5;
+.arrows {
+  width: 24px;
+  height: 24px;
 }
 #mainImg {
   width: 564px;
@@ -39,21 +41,63 @@
 }
 .nameandpics ul {
   display: flex;
+  justify-content: center;
 }
+.nameandpics ul li {
+  list-style-type: none;
+  width: 96px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 12px;
+  text-align: center;
+}
+
+/* DESCRIPTION */
 .descriptionCont {
   width: 30%;
 }
-
+.descriptionArrow {
+  display: flex;
+  justify-content: space-between;
+}
+.descriptionArrow h2 {
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
+.descriptionArrow img {
+  width: 16px;
+  height: 16px;
+}
+.descriptionCont p {
+  font-size: 18px;
+  width: 25rem;
+  line-height: 26px;
+  letter-spacing: 0.7px;
+  opacity: 0.7;
+}
+.descriptionCont hr {
+  opacity: 0.5;
+  height: 2px;
+  margin: 2rem 0;
+}
+.descriptionCont h3 {
+  font-size: 20px;
+  letter-spacing: 0.7px;
+}
 .sizes {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
+  margin: 1rem 0;
 }
 .sizes li {
+  list-style-type: none;
   padding: 0.7rem 0rem;
   border: 1px solid black;
   text-align: center;
   border-radius: 8px;
   width: 48px;
   height: 48px;
+  opacity: 0.7;
 }
