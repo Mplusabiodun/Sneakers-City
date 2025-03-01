@@ -94,10 +94,39 @@
 .sizes li {
   list-style-type: none;
   padding: 0.7rem 0rem;
-  border: 1px solid black;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
   text-align: center;
   border-radius: 8px;
   width: 48px;
   height: 48px;
   opacity: 0.7;
+}
+.addToCartCont {
+  display: flex;
+  margin-top: 7rem;
+}
+.addAndSub {
+  display: flex;
+  width: 7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.addAndSub span {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+#number {
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  padding: 0.7rem 1.2rem;
+}
+.addToCartCont button {
+  background-color: #d90429;
+  border-color: #d90429;
+  color: #f3f3f3;
+  padding: 0.8rem 1.5rem;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  margin-left: 2rem;
 }

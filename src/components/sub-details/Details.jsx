@@ -66,11 +66,11 @@ export default function Details() {
             <li>32</li>
             <li>32</li>
           </ul>
-          <div>
-            <div>
-              <p>-</p>
-              <p>1</p>
-              <p>+</p>
+          <div className={styles.addToCartCont}>
+            <div className={styles.addAndSub}>
+              <span>-</span>
+              <span id={styles.number}>1</span>
+              <span>+</span>
             </div>
             <button>Add to cart</button>
           </div>
